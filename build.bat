@@ -1,0 +1,6 @@
+@echo off
+echo Установка зависимостей...
+pip install -r requirements.txt
+echo Сборка исполняемого файла...
+pyinstaller app.spec
+pause
